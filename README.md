@@ -83,6 +83,8 @@ POST - https://2ktfyyegf1.execute-api.us-east-1.amazonaws.com/dev/token
 }
 ```
 
+![Token de Tarjeta de Credito](https://github.com/angelloluisp/culqi-challenge-tokenizer/blob/main/img/culqi_token.png?raw=true)
+
 ### Obtener datos de tarjeta
 
 ```bash
@@ -111,6 +113,10 @@ GET - https://2ktfyyegf1.execute-api.us-east-1.amazonaws.com/dev/card
   expiration_year: string,
 }
 ```
+
+Ahora usamos el metodo GET
+y enviamos el token por el Header de tipo Bearer
+![Verificacion de Token](https://github.com/angelloluisp/culqi-challenge-tokenizer/blob/main/img/culqi_card.png?raw=true)
 
 
 ## Author
