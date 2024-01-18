@@ -1,7 +1,8 @@
 {
   "name": "culqi-challenge-tokenizer",
-  "version": "1.0.0",
-  "description": "Culqi Backend Serverless",
+  "version": "1.1.0",
+  "author": "Angello Luis Pareja Sarmiento",
+  "description": "Culqi Backend Serverless for get token and save card data",
   "main": "index.js",
   "scripts": {
     "deploy": "npx tsc && sls deploy",

@@ -6,8 +6,8 @@ describe("Test on getCreditCard.handler", () => {
   const mockEvent: APIGatewayProxyEvent = mockEventGenerator(
     {},
     {
-      authorization: "Bearer 8wbFEcHikWqj7IBW", // this token expires in 1 year, only for testing
-      connectionToken: "pk_test_0ae8dW2FpEAZlxlz",
+      authorization: "Bearer Qzu9CflmnSADxAvZ", // this token expires in 1 year, only for testing
+      connectionToken: "pk_test_5gfyh57687fvgt56",
     }
   );
 
@@ -92,7 +92,7 @@ describe("Test on getCreditCard.handler", () => {
         ...mockEvent,
         headers: {
           ...mockEvent.headers,
-          Authorization: "Bearer G6D727ZcDAEX21vo",
+          Authorization: "Bearer Qzu9CflmnSADxAvZ",
         },
       },
       mockContext,
@@ -108,7 +108,7 @@ describe("Test on getCreditCard.handler", () => {
         ...mockEvent,
         headers: {
           ...mockEvent.headers,
-          Authorization: "Bearer G6D727ZcDAEX21vo",
+          Authorization: "Bearer Qzu9CflmnSADxAvZ",
         },
       },
       mockContext,

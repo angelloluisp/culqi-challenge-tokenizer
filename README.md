@@ -49,7 +49,7 @@ npm run test
 ### Generar token de tarjeta
 
 ```bash
-POST - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/token
+POST - https://2ktfyyegf1.execute-api.us-east-1.amazonaws.com/dev/token
 ```
 
 #### Request
@@ -59,7 +59,7 @@ POST - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/token
   ```js
   {
     'Content-Type': 'application/json',
-    'connection-token': 'pk_test_0ae8dW2FpEAZlxlz'
+    'connection-token': 'pk_test_5gfyh57687fvgt56'
   }
   ```
 
@@ -86,7 +86,7 @@ POST - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/token
 ### Obtener datos de tarjeta
 
 ```bash
-GET - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/card
+GET - https://2ktfyyegf1.execute-api.us-east-1.amazonaws.com/dev/card
 ```
 
 #### Request
@@ -96,7 +96,7 @@ GET - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/card
   ```js
   {
     'Content-Type': 'application/json',
-    'connection-token': 'pk_test_0ae8dW2FpEAZlxlz',
+    'connection-token': 'pk_test_5gfyh57687fvgt56',
     Authorization: 'Bearer <token>'
   }
   ```
@@ -111,3 +111,15 @@ GET - https://ypou7hiu94.execute-api.us-west-1.amazonaws.com/dev/card
   expiration_year: string,
 }
 ```
+
+
+## Author
+
+👤 **angelloluisp**
+
+* Github: [@angelloluisp](https://github.com/angelloluisp)
+* LinkedIn: [@https://www.linkedin.com/in/angello-pareja/](https://www.linkedin.com/in/angello-pareja/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!

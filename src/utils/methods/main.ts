@@ -8,7 +8,8 @@ export const generateCrediCardToken = () => {
   const token = Array.from(randomBytes)
     .map((byte) => characters.charAt(byte % characters.length))
     .join("");
-  return token;
+  const tokenWithPrefix = 'pk_test_' + token;
+  return tokenWithPrefix;
 };
 
 export const expiresDate = (seconds?: number) =>
